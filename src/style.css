@@ -1,0 +1,46 @@
+body{
+    background-color: #000000;
+    color: rgb(255, 8, 111);
+    width: 97%;
+    font-size: 1.5em;
+    font-family: 'Wallpoet', cursive;
+}
+
+h1{
+    margin: 1em;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Wallpoet', cursive;
+}
+
+table, tr, td {
+    border: 1px solid rgb(195, 195, 195);
+    border-collapse: collapse;
+    margin: 1em;
+    padding: 1em;
+    font-family: 'Wallpoet', cursive;
+    text-align: center;
+}
+
+tr.title > td {
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Wallpoet', cursive;
+}
+
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    font-family: 'Wallpoet', cursive;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.flight.container {
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+}
